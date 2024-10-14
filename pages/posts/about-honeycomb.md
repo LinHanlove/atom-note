@@ -80,9 +80,9 @@ type: note
 #### 快捷键
 
 - 🚀 `Alt + O`：打开插件界面，快速开始你的搜索之旅。
-- <span tabler:screenshot/> `Alt + A`：启动区域截图功能，让截图变得简单又快捷。
-- <span eos-icons:arrow-rotate/> `Alt + C`：强制刷新当前页面，确保你看到的是最新内容。
-- <span line-md:github-loop/> `Alt + G`：一键打开GitHub页面，在VSCode中查看源码，优化你的代码审查流程。
+- <span i-tabler:screenshot class="text-[teal]"/> `Alt + A`：启动区域截图功能，让截图变得简单又快捷。
+- <span i-eos-icons:arrow-rotate class="text-[#ff9900]"/> `Alt + C`：强制刷新当前页面，确保你看到的是最新内容。
+- <span i-line-md:github-loop class="text-[#24292e]"/> `Alt + G`：一键打开GitHub页面，在VSCode中查看源码，优化你的代码审查流程。
 
 #### 注意
 
