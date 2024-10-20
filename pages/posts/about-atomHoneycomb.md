@@ -10,7 +10,7 @@ type: note
 那天，我在抖音上看到一个前端大佬玩弄`tailwindcss`的浏览器插件，心想：这玩意儿我也能变出来吗！于是我挥动魔杖，发现了`plasmo`这个神器，它让我用`React`就能变出一个浏览器插件。起初，这个项目叫`findDiff`，我梦想着做一个浏览器截图插件，像`snipaste`那样，让前端开发者能一目了然地看出页面效果和设计稿的差别。
 
 🔮 **魔药熬制失败记**
-我施法啊施法，搜寻啊搜寻，施法啊施法，结果发现浏览器插件这条路不太好走。我没法像软件那样在不同网页间共享截图，切换网页后，插入`body`的截图就消失了，这似乎没意义...
+我施法啊施法，搜寻啊搜寻，结果发现浏览器插件这条路不太好走。我没法像软件那样在不同网页间共享截图，切换网页后，插入`body`的截图就消失了，这似乎没意义...
 
 🧙‍♂️ **巫师的试错之旅**
 我尝试了各种咒语，比如用`iframe`嵌入截图，但截图的`iframe`拖不动，也没法在`iframe`里拖动，这个方法也失败了。或者把截图存本地？结果还是一场空。
@@ -25,20 +25,20 @@ type: note
 
 #### 介绍
 
-想象一下，有一个小工具能让你在浏览器里像蜜蜂一样快速穿梭于各种网页，找到你需要的花蜜——信息。这就是`Atom Honeycomb`，一个基于[plasmo](https://plasmo.com)的浏览器扩展，它能让你以光速访问和搜索网页内容，支持任何通过URL中GET参数搜索的网站。
+想象一下，有一个小工具能让你在浏览器里像蜜蜂一样快速穿梭于各种网页，找到你需要的信息。这就是`Atom Honeycomb`，一个基于[plasmo](https://plasmo.com)的浏览器扩展，它能让你以光速访问和搜索网页内容，支持任何通过URL中GET参数搜索的网站。
 
 #### 为什么叫 Atom Honeycomb
 
-选择这个名字是因为蜂巢不仅结构精巧，而且效率极高。就像我们的`Atom Honeycomb`扩展一样，简洁、高效，而且蜜蜂是勤劳的象征，正如我们这些勤劳的开发者一样，不停地在信息的花海中采集知识的花蜜！
+选择这个名字是因为蜂巢不仅结构精巧，而且效率极高。就像我们的`Atom Honeycomb`扩展一样，简洁、高效，而且蜜蜂是勤劳的象征，正如我们这些勤劳的开发者一样，不停地在信息的花海中采集知识的花蜜
 
 ##### 安装1
 
-1. 🛍️ [点击这里](https://chromewebstore.google.com/search/Atom Honeycomb?hl=zh-CN&utm_source=ext_sidebar)直达扩展商店。
+1. 🛍️ [点击这里](https://chromewebstore.google.com/search/Atom%20Honeycomb?hl=zh-CN&utm_source=ext_sidebar) 直达扩展商店。
 2. 🔨 点击`Add to Chrome`按钮，让`Atom Honeycomb`成为你的新伙伴。
 
 ##### 安装2
 
-1. 🔍 [打开这里](https://github.com/zhengyuxiang/Atom Honeycomb)，找到`Atom Honeycomb`的家。
+1. 🔍 [打开这里](https://github.com/LinHanlove/atomHoneycomb)，找到`Atom Honeycomb`的家。
 2. 📎 点击`Code`按钮，然后选择`Download ZIP`。
 3. 📂 解压文件，用vscode打开，运行`pnpm install`安装依赖，再运行`pnpm build`构建项目。
 4. 🛠️ 打开`更多工具` -> `扩展程序`。
@@ -93,13 +93,13 @@ type: note
 #### 删除预设
 
 - 🖹 点击`删除预设`按钮，弹出删除预设窗口。
-- 🗑️ 点击`删除预设`按钮，删除你不再需要的搜索网站。
+- 🗑️ 点击按钮，删除你不再需要的搜索网站。
   ![删除预设](../../public/images/honeycomb/delete.png)
 
 #### 搜索
 
 - 🔍 在搜索框中输入关键字，点击`搜索`按钮或回车，浏览器就会打开搜索结果页面。
-  ![Atom Honeycomb](../../public/images/honeycomb/Atom Honeycomb.png)
+  ![Atom Honeycomb](../../public/images/honeycomb/honeycomb.png)
 
 #### 区域截图
 
