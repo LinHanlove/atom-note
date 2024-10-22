@@ -52,6 +52,7 @@ type: note
 | 快捷搜索                       | 在搜索框中输入关键字，选择搜索目标，点击`搜索`按钮或回车。 |
 | 区域截图                       | 快速截取网页区域，截图内容自动填充到剪切板。               |
 | json数据美化                   | 将 JSON 数据漂亮地打印到 HTML 中以进行缩进和着色。         |
+| 图片压缩                       | 智能有损压缩，支持PNG、JPEG、GIF、WEBP等格式               |
 | githubDev                      | 一键打开GitHub页面，在VSCode中查看源码。                   |
 | 刷新                           | 强制刷新当前页面，清除本地存储，确保最新内容。             |
 | 添加/删除预设                  | 添加/删除你常用的搜索网站，一键直达。                      |
@@ -69,6 +70,7 @@ type: note
 | refresh       | 强制刷新当前页面，清除本地存储，确保最新内容。     |
 | githubDev     | 一键打开GitHub页面，查看源码，优化你的代码审查流程 |
 | jsonFormatter | json数据美化                                       |
+| compressHero  | 智能有损压缩                                       |
 
 ### 快捷键
 
@@ -114,6 +116,15 @@ type: note
 
 - 📦 点击`jsonFormatter`按钮，浏览器会自动打开`jsonFormatter`，输入框输入对应的`json`数据，让你更方便地查看数据。
   ![json数据美化](../../public/images/honeycomb/jsonFormatter.png)
+
+#### 智能有损压缩
+
+- 📦 点击`compressHero`按钮，浏览器会自动打开`compressHero`，点击或拖动对应的`图片`数据，让你更方便地压缩图片。
+  ![智能有损压缩](../../public/images/honeycomb/compressHero.png)
+
+##### 压缩后对比
+
+![智能有损压缩](../../public/images/honeycomb/contrast.png)
 
 #### 解除外链限制
 
