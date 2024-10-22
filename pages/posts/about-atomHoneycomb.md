@@ -122,6 +122,10 @@ type: note
 - 📦 点击`compressHero`按钮，浏览器会自动打开`compressHero`，点击或拖动对应的`图片`数据，让你更方便地压缩图片。
   ![智能有损压缩](../../public/images/honeycomb/compressHero.png)
 
+##### 预览弹窗
+
+![智能有损压缩预览](../../public/images/honeycomb/diffPreview.png)
+
 ##### 压缩后对比
 
 ![智能有损压缩](../../public/images/honeycomb/contrast.png)
