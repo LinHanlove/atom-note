@@ -38,7 +38,7 @@ type: note
 
 ##### 安装2
 
-1. 🔍 [打开这里](https://github.com/LinHanlove/atomHoneycomb)，找到`Atom Honeycomb`的家。
+1. 🔍 [打开这里](https://github.com/LinHanlove/atom-honeycomb)，找到`Atom Honeycomb`的家。
 2. 📎 点击`Code`按钮，然后选择`Download ZIP`。
 3. 📂 解压文件，用vscode打开，运行`pnpm install`安装依赖，再运行`pnpm build`构建项目。
 4. 🛠️ 打开`更多工具` -> `扩展程序`。
@@ -47,19 +47,21 @@ type: note
 
 ### 功能/亮点清单
 
-| 功能/亮点                      | 描述                                                       |
-| ------------------------------ | ---------------------------------------------------------- |
-| 快捷搜索                       | 在搜索框中输入关键字，选择搜索目标，点击`搜索`按钮或回车。 |
-| 区域截图                       | 快速截取网页区域，截图内容自动填充到剪切板。               |
-| json数据美化                   | 将 JSON 数据漂亮地打印到 HTML 中以进行缩进和着色。         |
-| 图片压缩                       | 智能有损压缩，支持PNG、JPEG、GIF、WEBP等格式               |
-| githubDev                      | 一键打开GitHub页面，在VSCode中查看源码。                   |
-| 刷新                           | 强制刷新当前页面，清除本地存储，确保最新内容。             |
-| 添加/删除预设                  | 添加/删除你常用的搜索网站，一键直达。                      |
-| 掘金，csdn等网站解除外链限制   | 解除网站外链访问限制，自由访问相关内容。                   |
-| 右键操作菜单                   | 将功能集成到右键菜单，方便快速操作。                       |
-| scdn自动展开内容不需要点击关注 | 自动展开内容，无需点击关注即可查看。                       |
-| 点亮徽标                       | 快速打开插件、截图、刷新页面。                             |
+| 功能/亮点                      | 描述                                                                       |
+| ------------------------------ | -------------------------------------------------------------------------- |
+| 快捷搜索                       | 在搜索框中输入关键字，选择搜索目标，点击`搜索`按钮或回车。                 |
+| 划词搜索                       | 选中网页任何字段，右键选择`atom-honeycomb`，点击`search`，即可搜索对应内容 |
+| 区域截图                       | 快速截取网页区域，截图内容自动填充到剪切板。                               |
+| json数据美化                   | 将 JSON 数据漂亮地打印到 HTML 中以进行缩进和着色。                         |
+| 图片压缩                       | 智能有损压缩，支持PNG、JPEG、GIF、WEBP等格式                               |
+| 图片格式转换                   | 支持`PNG`、`JPEG`、`WEBP`图片格式互转                                      |
+| githubDev                      | 一键打开GitHub页面，在VSCode中查看源码。                                   |
+| 刷新                           | 强制刷新当前页面，清除本地存储，确保最新内容。                             |
+| 添加/删除预设                  | 添加/删除你常用的搜索网站，一键直达。                                      |
+| 掘金，csdn等网站解除外链限制   | 解除网站外链访问限制，自由访问相关内容。                                   |
+| 右键操作菜单                   | 将功能集成到右键菜单，方便快速操作。                                       |
+| scdn自动展开内容不需要点击关注 | 自动展开内容，无需点击关注即可查看。                                       |
+| 点亮徽标                       | 快速打开插件、截图、刷新页面。                                             |
 
 ### 右键操作菜单
 
@@ -78,7 +80,7 @@ type: note
 | -------------------------------------------------------------- | -------------------------------------------------- |
 | 🚀 Alt + J                                                     | 快速打开json数据美化。                             |
 | <span i-tabler:screenshot class="text-[teal]"/> Alt + A        | 快速截取网页区域，截图内容自动填充到剪切板。       |
-| <span i-eos-icons:arrow-rotate class="text-[#ff9900]"/>Alt + C | 强制刷新当前页面，清除本地存储，确保最新内容。     |
+| <span i-eos-icons:arrow-rotate class="text-[#ff9900]"/>Alt + C | 智能有损压缩，支持PNG、JPEG、GIF、WEBP等格式       |
 | <span i-line-md:github-loop class="text-[#24292e]"/> Alt + G   | 一键打开GitHub页面，查看源码，优化你的代码审查流程 |
 
 #### 导入预设
@@ -110,16 +112,16 @@ type: note
 
 #### github 一键打开网页vscode查看源码
 
-- 📦 点击`githubDev`按钮，浏览器会自动打开`vscode`，并打开对应的`github`仓库，让你更方便地查看源码。
+- 📦 点击`githubDev`按钮，或使用快捷键`ALT+G`，浏览器会自动打开`vscode`，并打开对应的`github`仓库，让你更方便地查看源码。
 
 #### json数据美化
 
-- 📦 点击`jsonFormatter`按钮，浏览器会自动打开`jsonFormatter`，输入框输入对应的`json`数据，让你更方便地查看数据。
+- 📦 点击`jsonFormatter`按钮，或使用快捷键`ALT+J`，浏览器会自动打开`jsonFormatter`，输入框输入对应的`json`数据，让你更方便地查看数据。
   ![json数据美化](../../public/images/honeycomb/jsonFormatter.png)
 
 #### 智能有损压缩
 
-- 📦 点击`compressHero`按钮，浏览器会自动打开`compressHero`，点击或拖动对应的`图片`数据，让你更方便地压缩图片。
+- 📦 点击`compressHero`按钮，或使用快捷键`ALT+C`，浏览器会自动打开`compressHero`，点击或拖动对应的`图片`数据，让你更方便地压缩图片。
   ![智能有损压缩](../../public/images/honeycomb/compressHero.png)
 
 ##### 预览弹窗
@@ -129,6 +131,10 @@ type: note
 ##### 压缩后对比
 
 ![智能有损压缩](../../public/images/honeycomb/contrast.png)
+
+##### 图片格式转换
+
+![图片格式转换](../../public/images/honeycomb/typeTranslate.png)
 
 #### 解除外链限制
 
