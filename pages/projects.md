@@ -23,9 +23,9 @@ projects:
       desc: 'Thank you to antfu. This project is based on this'
       icon: 'i-noto-v1:notebook saturate-0'
     - name: 'Atom Honeycomb'
-    - link: 'https://github.com/LinHanlove/atomHoneycomb'
-    - desc: 'Honeycomb: Streamline your browsing experience with quick search, cache clearing, screenshot capture, and more — all in one convenient extension.'
-    - icon: 'i-ri:hexagon-line saturate-0'
+      link: 'https://github.com/LinHanlove/atomHoneycomb'
+      desc: 'Develop more efficient and aesthetically pleasing browser plugins'
+      icon: 'i-ri:hexagon-line saturate-0'
 
   Wechat:
     - name: 'Wechat Bot'
