@@ -44,6 +44,9 @@ onKeyStroke('Escape', (e) => {
   <Transition name="fade">
     <div v-if="imageModel" fixed top-0 left-0 right-0 bottom-0 z-500 backdrop-blur-7 @click="imageModel = undefined">
       <div absolute top-0 left-0 right-0 bottom-0 bg-black:30 z--1 />
+      <span i-ri:hexagon-line />
+      <span icon="i-ri:hexagon-line" />
+      <span i-ri:hexagon-line />
       <img :src="imageModel.src" :alt="imageModel.alt" :class="imageModel.className" max-w-screen max-h-screen w-full h-full object-contain>
     </div>
   </Transition>
