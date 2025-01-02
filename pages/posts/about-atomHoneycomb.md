@@ -136,6 +136,17 @@ type: note
 
 ![图片格式转换](../../public/images/honeycomb/typeTranslate.png)
 
+#### markdown表格数据转换，搭配vscode插件**type-format**使用
+
+- 📦 点击`TableMarkdown`按钮，或使用快捷键`ALT+T`，浏览器会自动打开`TableMarkdown`
+- **使用Atom Honeycomb格式化Markdown表格：**
+- 首先，确保你已经安装了谷歌浏览器插件**Atom Honeycomb**。
+- 在语雀或其他Markdown编辑器中编辑你的表格数据。
+- 使用**Atom Honeycomb**将Markdown表格数据格式化为JSON。
+- 将格式化后的JSON数据复制粘贴到VSCode的“type-format”插件输入框中。
+- 回车，插件将自动将格式化后的JSON数据转换为TypeScript接口。
+  ![智能有损压缩](../../public/images/honeycomb/tableMarkdown.png)
+
 #### 解除外链限制
 
 - 打开预设的网站，右上角徽标点亮，会自动解除外链限制，让你自由访问相关内容。
