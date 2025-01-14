@@ -5,7 +5,7 @@ description: List of projects that I am proud of
 wrapperClass: 'text-center'
 art: dots
 projects:
-  Atom:
+  Atomic:
     - name: 'Atom Tools'
       link: 'https://github.com/LinHanlove/atom-tools'
       desc: 'A fast, powerful, and out of the box TypeScript tool library'
@@ -26,17 +26,26 @@ projects:
       link: 'https://github.com/LinHanlove/atomHoneycomb'
       desc: 'Develop more efficient and aesthetically pleasing browser plugins'
       icon: 'i-ri:hexagon-line saturate-0'
+    - name: 'TransType'
+      link: 'https://github.com/LinHanlove/transtype'
+      desc: 'VSCode plugin, Export typescript type from JSON data or formatted markdown table data'
+      icon: 'i-fluent:code-ts-16-filled saturate-0'
+
+  Harmony Os:
+    - name: 'Harmony Os Notion'
+      link: 'https://gitee.com/linhanlove/hormany-os-notion'
+      desc: 'Harmony version of "Concept Notes" project'
+      icon: 'i-arcticons:harmony saturate-0'
+    - name: 'Harmony Os Utils'
+      link: 'https://gitee.com/linhanlove/harmonyos-utils'
+      desc: '基于harmony_Os最新的api(API13)工具库，旨在提供项目开发中不可或缺的实用工具函数'
+      icon: 'i-arcticons:harmony saturate-0'
 
   Wechat:
     - name: 'Wechat Bot'
       link: 'https://github.com/LinHanlove/wechat-bot'
       desc: 'A WeChat robot based on WeChat combined with OpenAi ChatGPT/Kimi/iFlytek and other AI services.'
       icon: 'i-ic:baseline-wechat'
-  Harmony Os:
-    - name: 'Harmony Os Notion'
-      link: 'https://gitee.com/linhanlove/hormany-os-notion'
-      desc: 'Harmony version of "Concept Notes" project'
-      icon: 'i-arcticons:harmony saturate-0'
 
 ---
 
