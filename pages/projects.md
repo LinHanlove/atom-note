@@ -37,7 +37,7 @@ projects:
       desc: 'Harmony version of "Concept Notes" project'
       icon: 'i-arcticons:harmony saturate-0'
     - name: 'Harmony Os Utils'
-      link: 'https://ohpm.openharmony.cn/#/cn/detail/@atomic%2Fharmonyos-utils'
+      link: 'https://gitee.com/linhanlove/harmonyos-utils'
       desc: '基于harmony_Os最新的api(API13)工具库，旨在提供项目开发中不可或缺的实用工具函数'
       icon: 'i-arcticons:harmony saturate-0'
 
