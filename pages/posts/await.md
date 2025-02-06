@@ -3,7 +3,7 @@ title: 何时葡萄先熟透，你要静候再静候
 date: 2025-02-05:03:00
 lang: zh
 duration: 20min
-type: note
+type: treeHole
 ---
 
 《致自己》
