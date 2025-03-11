@@ -3,7 +3,6 @@
   <g clip-path="url(#clip0_402_22)">
     <rect width="1200" height="675" fill="url(#pattern0)" /><text fill="#fff" xml:space="preserve"
       style="white-space:pre" font-family="Inter" font-size="50" letter-spacing="0em">
-       <tspan x="484" y="314.898" font-size="40">LinHan's Song</tspan>
       <tspan x="274" y="382.898">{{line1}}</tspan>
       <tspan x="274" y="465">{{line2}}</tspan>
     </text>
