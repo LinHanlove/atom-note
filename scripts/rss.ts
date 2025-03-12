@@ -72,7 +72,7 @@ async function buildBlogRSS() {
 async function writeFeed(name: string, options: FeedOptions, items: Item[]) {
   options.author = AUTHOR
   options.image = 'https://linhan.atomnotion.com/avatar.png'
-  options.favicon = 'https://linhan.atomnotion.com/logo.png'
+  options.favicon = 'https://linhan.atomnotion.com/logo.svg'
 
   const feed = new Feed(options)
 

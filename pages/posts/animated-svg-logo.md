@@ -8,7 +8,7 @@ duration: 10min
 最近，我为网站左上角的徽标进行了一次改版，用动画 SVG 替换了原来的静态图标：
 
 <p flex>
-  <a href="../../public/logo.svg" target="_blank" important-border-none p4 ma>
+  <a href="/logo.svg" target="_blank" important-border-none p4 ma>
     <Logo class="!w-30 !h-30" />
   </a>
 </p>
@@ -19,7 +19,8 @@ duration: 10min
 
 特别是他那个充满设计感的签名体 logo，看过他的实现教程后，我也跃跃欲试。虽然尝试了很多次，但总是差强人意。
 
-直到遇见了 [lxchapu](https://www.lxchapu.com/posts/make-a-beautify-animated-signature/) 的这篇文章，如获至宝！它完美解答了我的所有困惑。在此特别感谢这两位开发者的分享 🙏
+直到遇见了 [lxchapu](https://www.lxchapu.com/posts/make-a-beautify-animated-signature/) 的这篇文章，如获至宝！
+它完美解答了我的所有困惑。在此特别感谢这两位开发者的分享 🙏
 
 ## 实现步骤
 
@@ -31,7 +32,8 @@ duration: 10min
 
 ### 2. 生成 SVG 路径
 
-接下来使用这个很棒的工具：[Google Font to SVG Path](https://danmarshall.github.io/google-font-to-svg-path/)，它能将 Google Fonts 字体转换为 SVG 路径。
+接下来使用这个很棒的工具：[Google Font to SVG Path](https://danmarshall.github.io/google-font-to-svg-path/)，它
+能将 Google Fonts 字体转换为 SVG 路径。
 
 ![SVG 路径转换工具](../../public/images/logo/translateSvg.png)
 
@@ -93,6 +95,6 @@ CSS 如下：
 
 其实只是用到了 troke-dasharray 属性和 stroke-dashoffset 实现路径动画。
 
-后续我可能还会的我的徽标做更改，但目前来说已经可以满足我了
+后续我可能还会对我的徽标做更改，但目前来说已经可以满足我了
 
 希望看到您的动画 SVG 徽标！
