@@ -36,7 +36,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/icons-in-pure-css': RouteRecordInfo<'/posts/icons-in-pure-css', '/posts/icons-in-pure-css', Record<never, never>, Record<never, never>>,
     '/posts/sliding-enter-animation': RouteRecordInfo<'/posts/sliding-enter-animation', '/posts/sliding-enter-animation', Record<never, never>, Record<never, never>>,
     '/posts/use-wechat-sdk': RouteRecordInfo<'/posts/use-wechat-sdk', '/posts/use-wechat-sdk', Record<never, never>, Record<never, never>>,
-    '/product': RouteRecordInfo<'/product', '/product', Record<never, never>, Record<never, never>>,
+    '/products': RouteRecordInfo<'/products', '/products', Record<never, never>, Record<never, never>>,
     '/projects': RouteRecordInfo<'/projects', '/projects', Record<never, never>, Record<never, never>>,
     '/sponsors-list': RouteRecordInfo<'/sponsors-list', '/sponsors-list', Record<never, never>, Record<never, never>>,
     '/treeHole': RouteRecordInfo<'/treeHole', '/treeHole', Record<never, never>, Record<never, never>>,

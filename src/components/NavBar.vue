@@ -40,18 +40,15 @@ const { y: scroll } = useWindowScroll()
         </RouterLink>
 
         <RouterLink to="/product" class="lt-md:hidden" title="Product">
-          <span class="lt-md:hidden">Product</span>
+          <span class="lt-md:hidden">Products</span>
           <!-- <div i-ant-design:product-filled /> -->
         </RouterLink>
         <RouterLink to="/demos" title="Demos">
           <div i-ri-screenshot-line />
         </RouterLink>
-        <RouterLink to="/chat" title="Let's Chat">
+        <!-- <RouterLink to="/chat" title="Let's Chat">
           <div i-ri-chat-1-line />
-        </RouterLink>
-        <a href="https://juejin.cn/user/2670060580903288/posts" target="_blank" title="Twitter" class="lt-md:hidden">
-          <div i-simple-icons:juejin />
-        </a>
+        </RouterLink> -->
         <a href="https://github.com/LinHanlove" target="_blank" title="GitHub" class="lt-md:hidden">
           <div i-uil-github-alt />
         </a>

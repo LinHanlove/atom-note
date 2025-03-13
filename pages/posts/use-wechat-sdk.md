@@ -38,7 +38,7 @@ pnpm add weixin-js-sdk -S
 
 ### 5. 调用微信SDK
 
-配置好微信SDK后，就可以调用微信SDK提供的API来实现功能了。比如，调用分享API可以实现分享功能，调用支付API可以实现支付功能。
+配置好微信SDK后，就可以调用微信SDK提供的API来(?:Android)调用分享API可以实现分享功能，调用支付API可以实现支付功能。
 
 ## vue3集成封装
 
@@ -78,10 +78,11 @@ class Wechat {
       _window.entryUrl = document.location.href
     }
 
-    console.log('当前页面URL：', /(Android)/i.test(navigator.userAgent) ? document.location.href : _window.entryUrl)
+    const isAndroid = /android/i.test(navigator.userAgent)
+    const currentUrl = isAndroid ? document.location.href : _window.entryUrl
+    console.log('当前页面URL：', currentUrl)
 
-    // 针对 Android 平台返回当前文档位置，否则返回 entryUrl
-    return /(Android)/i.test(navigator.userAgent) ? document.location.href : _window.entryUrl
+    return currentUrl
   }
 
   /**
