@@ -1,5 +1,6 @@
 ---
 title: wechat
+lang: en
 display: Add Me！
 art: dots
 ---

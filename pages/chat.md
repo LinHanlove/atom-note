@@ -1,6 +1,7 @@
 ---
 title: Let's Chat - LinHan
 display: Let's Chat!
+lang: en
 image: https://linhan.atomnotion.com/og-chat.png
 art: dots
 ---

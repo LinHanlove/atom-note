@@ -1,5 +1,5 @@
 ---
-title: 聊聊纯 CSS 图标
+title: 聊聊纯CSS图标
 date: 2021-10-31T16:00:00Z
 lang: zh
 duration: 10min

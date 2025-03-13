@@ -1,5 +1,6 @@
 ---
 title: 和 LinHan 聊聊天！
+lang: zh
 display: 聊聊天！
 image: https://linhan.atomnotion.com/og-chat.png
 ---

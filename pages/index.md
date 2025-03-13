@@ -2,6 +2,7 @@
 title: LinHan
 description: LinHan's Portfolio
 art: random
+notFontFamily: true
 ---
 
 Hey, I am LinHan, a fanatical open sourceror.

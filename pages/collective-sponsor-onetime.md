@@ -1,6 +1,7 @@
 ---
 title: Collective Sponsorship
 display: ''
+lang: en
 ---
 
 <script setup>

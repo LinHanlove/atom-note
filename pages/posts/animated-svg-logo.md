@@ -1,5 +1,5 @@
 ---
-title: Animated SVG Logo
+title: 动画svg徽标
 date: 2025-03-10:10:00
 lang: zh
 duration: 10min

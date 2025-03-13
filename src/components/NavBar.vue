@@ -39,9 +39,12 @@ const { y: scroll } = useWindowScroll()
           <div i-ri-lightbulb-line class="md:hidden" />
         </RouterLink>
 
-        <RouterLink to="/product" class="lt-md:hidden" title="Product">
+        <RouterLink to="/products" class="lt-md:hidden" title="Products">
           <span class="lt-md:hidden">Products</span>
           <!-- <div i-ant-design:product-filled /> -->
+        </RouterLink>
+        <RouterLink to="/interesting" class="lt-md:hidden" title="Interesting">
+          <span class="lt-md:hidden">Interesting</span>
         </RouterLink>
         <RouterLink to="/demos" title="Demos">
           <div i-ri-screenshot-line />
