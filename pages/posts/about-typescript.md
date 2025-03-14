@@ -1015,7 +1015,7 @@ developer.name = 'Tom'
 以上代码在 JavaScript 中可以正常运行，但在 TypeScript 中，编译器会提示以下异常信息：
 
 ```ts
-类型“{}”上不存在属性“name”。ts(2339)
+// 类型“{}”上不存在属性“name”。ts(2339)
 ```
 
 `{}` 类型表示一个没有包含成员的对象，所以该类型没有包含 `name` 属性。为了解决这个问题，我们可以声明一个 `LooseObject` 类型：
@@ -1071,8 +1071,8 @@ add('1', '2') // "12"
 由于 TypeScript 是 JavaScript 的超集，因此以上的代码可以直接在 TypeScript 中使用，但当 TypeScript 编译器开启 `noImplicitAny`的配置项时，以上代码会提示以下错误信息：
 2
 ```ts
-参数“x”隐式具有“any”类型。ts(7006)
-参数“y”隐式具有“any”类型。ts(7006)
+// 参数“x”隐式具有“any”类型。ts(7006)
+// 参数“y”隐式具有“any”类型。ts(7006)
 ```
 
 该信息告诉我们参数 `x` 和参数 `y` 隐式具有 `any` 类型。为了解决这个问题，我们可以为参数设置一个类型。因为我们希望 `add` 函数同时支持 `string` 和 `number` 类型，因此我们可以定义一个 `string | number` 联合类型，同时我们为该联合类型取个别名：
@@ -1102,8 +1102,8 @@ result.split(' ')
 在上面代码中，我们分别使用 `cat` 和 `mouse` 这两个字符串作为参数调用 `add` 函数，并把调用结果保存到一个名为 `result` 的变量上，这时候我们想当然的认为此时 `result` 的变量的类型为 `string`，所以我们就可以正常调用字符串对象上的 `split` 方法。但这时 TypeScript 编译器又出现以下错误信息了：
 
 ```ts
-类型“string | number”上不存在属性“split”。
-类型“number”上不存在属性“split”。ts(2339)
+// 类型“string | number”上不存在属性“split”。
+// 类型“number”上不存在属性“split”。ts(2339)
 ```
 
 很明显 `Combinable` 和 `number` 类型的对象上并不存在 `split` 属性。问题又来了，那如何解决呢？这时我们就可以利用 TypeScript 提供的函数重载。

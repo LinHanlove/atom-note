@@ -11,11 +11,15 @@ const { frontmatter } = defineProps({
 const router = useRouter()
 const route = useRoute()
 const content = ref<HTMLDivElement>()
+const title_h1 = ref<HTMLHeadingElement>()
 
 const githubUrl = 'https://github.com/LinHanlove'
 
 onMounted(() => {
   const navigate = () => {
+    if (title_h1.value) {
+      title_h1.value.style.fontFamily = frontmatter.notFontFamily ? 'AL' : frontmatter.lang === 'zh' ? 'SJ' : 'LH'
+    }
     if (location.hash) {
       const el = document.querySelector(decodeURIComponent(location.hash))
       if (el) {
@@ -95,7 +99,7 @@ const ArtComponent = computed(() => {
     class="prose m-auto mb-8"
     :class="[frontmatter.wrapperClass]"
   >
-    <h1 class="mb-0 slide-enter-50" :style="{ fontFamily: frontmatter.notFontFamily ? 'AL' : frontmatter.lang === 'zh' ? 'SJ' : 'LH' }">
+    <h1 ref="title_h1" class="mb-0 slide-enter-50">
       {{ frontmatter.display ?? frontmatter.title }}
     </h1>
     <p
