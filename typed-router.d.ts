@@ -31,6 +31,7 @@ declare module 'vue-router/auto-routes' {
     '/notes': RouteRecordInfo<'/notes', '/notes', Record<never, never>, Record<never, never>>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/about-atomHoneycomb': RouteRecordInfo<'/posts/about-atomHoneycomb', '/posts/about-atomHoneycomb', Record<never, never>, Record<never, never>>,
+    '/posts/about-typescript': RouteRecordInfo<'/posts/about-typescript', '/posts/about-typescript', Record<never, never>, Record<never, never>>,
     '/posts/animated-svg-logo': RouteRecordInfo<'/posts/animated-svg-logo', '/posts/animated-svg-logo', Record<never, never>, Record<never, never>>,
     '/posts/await': RouteRecordInfo<'/posts/await', '/posts/await', Record<never, never>, Record<never, never>>,
     '/posts/build-the-nuxtv3-project': RouteRecordInfo<'/posts/build-the-nuxtv3-project', '/posts/build-the-nuxtv3-project', Record<never, never>, Record<never, never>>,

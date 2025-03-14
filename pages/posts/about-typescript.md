@@ -1,6 +1,6 @@
 ---
 title: 关于TypeScript
-date:2025-03-14 10:26:00
+date: 2025-03-14 10:26:00
 lang: zh
 duration: 30min
 ---
