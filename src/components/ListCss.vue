@@ -1,9 +1,5 @@
 <script setup lang="ts">
 defineProps<{ list: { title: string, link: string }[] }>()
-
-function slug(name: string) {
-  return name.toLowerCase().replace(/[\s\\/]+/g, '-')
-}
 </script>
 
 <template>
@@ -34,8 +30,8 @@ function slug(name: string) {
         <div class="i-ri-menu-2-fill" />
       </div>
       <ul>
-        <li v-for="key of Object.keys(list)" :key="key">
-          <a :href="`#${slug(key)}`">{{ key }}</a>
+        <li v-for="item of list" :key="item.title">
+          <a :href="`/cssInspiration/${item.link}`">{{ item.title }}</a>
         </li>
       </ul>
     </div>

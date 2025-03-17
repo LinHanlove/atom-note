@@ -7,7 +7,7 @@ lang: zh
 
 <RuleDropShadow/>
 
-使用 drop-shadow 配合 clip-path 生成规则阴影。
+使用drop-shadow配合clip-path 生成规则阴影。
 
 ### 关键点
 

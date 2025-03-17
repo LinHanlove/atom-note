@@ -10,8 +10,12 @@ list:
     link: 'ball-loading'
   - title: '单标签纯CSS实现幽灵动画'
     link: 'ghost'
-  - title: '使用 drop-shadow 配合 clip-path 生成规则阴影'
+  - title: '使用drop-shadow配合clip-path生成规则阴影'
     link:  'rule-shadow'
+  - title: 'retina屏下的1px线的实现'
+    link: 'retina-line-1px'
+  - title: 'SVG按钮hover线条动画'  
+    link: 'svg-button-hover'
 ---
 
 <ListCss :list="frontmatter.list" />
