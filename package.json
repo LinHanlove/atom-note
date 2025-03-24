@@ -18,6 +18,7 @@
     "dayjs": "^1.11.13",
     "exifreader": "^4.26.2",
     "floating-vue": "^5.2.2",
+    "gsap": "^3.12.7",
     "matter-attractors": "^0.1.6",
     "matter-js": "^0.19.0",
     "nprogress": "^0.2.0",

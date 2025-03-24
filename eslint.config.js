@@ -39,6 +39,7 @@ export default antfu(
       'ts/no-unused-expressions': 'off',
       'vue/no-template-shadow': 'off',
       'vue/no-v-text-v-html-on-component': 'off',
+      'no-console':'off'
     },
   },
 )

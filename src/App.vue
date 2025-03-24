@@ -50,4 +50,5 @@ onKeyStroke('Escape', (e) => {
       <img :src="imageModel.src" :alt="imageModel.alt" :class="imageModel.className" max-w-screen max-h-screen w-full h-full object-contain>
     </div>
   </Transition>
+  <Cursor />
 </template>
