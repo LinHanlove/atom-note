@@ -13,8 +13,6 @@ onMounted(() => {
   const _window = window as any
   const bigBall = document.querySelector('.cursor__ball--big') as HTMLElement
   const smallBall = document.querySelector('.cursor__ball--small') as HTMLElement
-  const hoverAbles = document.querySelectorAll('.hoverable') as NodeListOf<HTMLElement>
-  const hoverAblesLarge = document.querySelectorAll('.hoverable--large') as NodeListOf<HTMLElement>
 
   // 初始化光标位置
   const initCursor = (element: HTMLElement, x: number, y: number) => {
@@ -30,42 +28,12 @@ onMounted(() => {
     gsap.to(smallBall, { duration: 0.1, x: e.clientX - 7, y: e.clientY - 7, opacity: 1 })
   }
 
-  // 元素悬停事件处理函数
-  const onMouseHover = () => {
-    gsap.to(bigBall, { duration: 0.3, scale: 2.2 })
-  }
-
-  const onMouseHoverLarge = () => {
-    gsap.to(bigBall, { duration: 0.3, scale: 5 })
-  }
-
-  const onMouseHoverOut = () => {
-    gsap.to(bigBall, { duration: 0.3, scale: 1 })
-  }
-
   // 添加事件监听器
   window.addEventListener('mousemove', onMouseMove)
-
-  hoverAbles.forEach((element) => {
-    element.addEventListener('mouseenter', onMouseHover)
-    element.addEventListener('mouseleave', onMouseHoverOut)
-  })
-  hoverAblesLarge.forEach((element) => {
-    element.addEventListener('mouseenter', onMouseHoverLarge)
-    element.addEventListener('mouseleave', onMouseHoverOut)
-  })
 
   // 组件卸载时移除事件监听器
   onUnmounted(() => {
     window.removeEventListener('mousemove', onMouseMove)
-    hoverAbles.forEach((element) => {
-      element.removeEventListener('mouseenter', onMouseHover)
-      element.removeEventListener('mouseleave', onMouseHoverOut)
-    })
-    hoverAblesLarge.forEach((element) => {
-      element.removeEventListener('mouseenter', onMouseHoverLarge)
-      element.removeEventListener('mouseleave', onMouseHoverOut)
-    })
   })
 })
 </script>
