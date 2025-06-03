@@ -64,19 +64,19 @@ type: note
 4.  搜索结果会实时显示，点击目标功能即可快速进入其操作界面。
 
 **快捷搜索界面示例**
-![快捷搜索界面示例](../../public/images/horizonHop/images/popup.png)
+![快捷搜索界面示例](../../public/images/horizonHop/popup.png)
 
 **新增预设网址**
-![新增预设网址](../../public/images/horizonHop/images/addUrl.png)
+![新增预设网址](../../public/images/horizonHop/addUrl.png)
 
 **删除预设网址**
-![删除预设网址](../../public/images/horizonHop/images/deleteUrl.png)
+![删除预设网址](../../public/images/horizonHop/deleteUrl.png)
 
 **设置和版本信息**
-![设置和版本信息](../../public/images/horizonHop/images/setting.png)
+![设置和版本信息](../../public/images/horizonHop/setting.png)
 
 **功能区面板**
-![设置和版本信息](../../public/images/horizonHop/images/panel.png)
+![设置和版本信息](../../public/images/horizonHop/panel.png)
 
 ### 二. JSON 格式化工具 (JsonFormatter)
 
@@ -103,10 +103,10 @@ type: note
 7.  点击 Input 区域右上角的清空按钮清除内容。
 
 **JsonFormatter 页面概览**
-![JsonFormatter 页面概览](../../public/images/horizonHop/images/jsonFormatter.png)
+![JsonFormatter 页面概览](../../public/images/horizonHop/jsonFormatter.png)
 
 **JsonFormatter - 配置选项示例**
-![JsonFormatter - 配置选项示例](../../public/images/horizonHop/images/jsonFormatterOption.png)
+![JsonFormatter - 配置选项示例](../../public/images/horizonHop/jsonFormatterOption.png)
 
 ### 三. Markdown 表格转换 (TableMarkdown)
 
@@ -133,7 +133,7 @@ type: note
 6.  底部的操作栏可用于调整 JSON 格式化选项和缩进（复用 JsonFormatter 逻辑），**设置**会实时生效。
 
 **TableMarkdown 页面概览**
-![TableMarkdown 页面概览](../../public/images/horizonHop/images/tableMarkdown.png)
+![TableMarkdown 页面概览](../../public/images/horizonHop/tableMarkdown.png)
 
 ### 四. 本地图片压缩与格式转换 (CompressHero)
 
@@ -169,19 +169,19 @@ type: note
 6.  使用页面顶部的"批量下载"按钮一次下载所有处理完成的文件，或使用"清空列表"按钮移除所有文件。
 
 **CompressHero 页面概览**
-![CompressHero - 主界面](../../public/images/horizonHop/images/compressHero.png)
+![CompressHero - 主界面](../../public/images/horizonHop/compressHero.png)
 
 **CompressHero - 上传与压缩设置**
-![CompressHero - 上传与压缩设置](../../public/images/horizonHop/images/compressHeroUpload.png)
+![CompressHero - 上传与压缩设置](../../public/images/horizonHop/compressHeroUpload.png)
 
 **CompressHero - 文件列表与操作**
-![CompressHero - 文件列表与操作](../../public/images/horizonHop/images/compressHeroList.png)
+![CompressHero - 文件列表与操作](../../public/images/horizonHop/compressHeroList.png)
 
 **CompressHero - 预览对比弹窗**
-![CompressHero - 预览对比弹窗](../../public/images/horizonHop/images/compressHeroPreview.png)
+![CompressHero - 预览对比弹窗](../../public/images/horizonHop/compressHeroPreview.png)
 
 **CompressHero - 格式转换弹窗**
-![CompressHero - 格式转换弹窗](../../public/images/horizonHop/images/compressHeroFormat.png)
+![CompressHero - 格式转换弹窗](../../public/images/horizonHop/compressHeroFormat.png)
 
 ## 其他实用功能
 
