@@ -1,14 +1,12 @@
 ---
 title: 关于Horizon-Hop
-date: 2024-10-20T16:00:00Z
+date: 2025-06-03T16:00:00Z
 lang: zh
 duration: 20min
 type: note
 ---
 
 # Horizon-Hop
-
-![Horizon-Hop Logo](../../public/images/horizonHop/icon.png)
 
 ## 项目简介
 
@@ -212,10 +210,17 @@ type: note
 
 (可以添加更详细的开发环境设置、运行项目、提交 Pull Request 的指南)
 
+## 联系方式
+
+如果您有任何问题或建议，请通过以下方式联系我们：
+
+*   GitHub Issues: [项目链接](https://github.com/LinHanlove/HorizonHop/issues)
+*   Wechant: [your-email@example.com](https://linhan.atomnotion.com/wechat)
+
 ## 许可证
 
 本项目采用 [LICENSE NAME] 许可证开源。
 
 ---
 
-**[您的名字或组织名称] © [年份]**
+**[LinHanPro] © [2025-06-03]**
