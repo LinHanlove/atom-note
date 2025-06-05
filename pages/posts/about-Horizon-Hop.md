@@ -40,7 +40,7 @@ type: note
 | 功能/亮点                                                      | 描述                                               |
 | -------------------------------------------------------------- | -------------------------------------------------- |
 | Alt + O                                                     | 快速打开插件主界面                            |
-| Alt + F        | 快速打开功能面板       |
+| Alt + P        | 快速打开功能面板       |
 
 
 
@@ -214,8 +214,8 @@ type: note
 
 如果您有任何问题或建议，请通过以下方式联系我们：
 
-*   GitHub Issues: [项目链接](https://github.com/LinHanlove/HorizonHop/issues)
-*   Wechant: [your-email@example.com](https://linhan.atomnotion.com/wechat)
+*   GitHub Issues: [https://github.com/LinHanlove/HorizonHop/issues](https://github.com/LinHanlove/HorizonHop/issues)
+*   Wechant: [https://linhan.atomnotion.com/wechat](https://linhan.atomnotion.com/wechat)
 
 ## 许可证
 
