@@ -196,7 +196,8 @@ type: note
 
 (这里将提供详细的安装步骤，根据您的发布方式填写)
 
-1.  **从 Chrome Web Store 安装 (推荐):** (填写商店链接和安装步骤)
+1.  **从 Chrome Web Store 安装 (推荐):** 
+    *    访问 [Chrome Web Store](https://chromewebstore.google.com/detail/horizon-hop/hhflcijdccomhfgeipdbghjbenbbljaa?hl=zh-CN&utm_source=ext_sidebar)。
 2.  **手动加载扩展:**
     *   下载项目的最新代码。
     *   打开 Chrome 浏览器，访问 `chrome://extensions/`。
