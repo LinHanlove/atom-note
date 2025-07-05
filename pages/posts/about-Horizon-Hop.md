@@ -41,6 +41,7 @@ type: note
 | -------------------------------------------------------------- | -------------------------------------------------- |
 | Alt + O                                                     | 快速打开插件主界面                            |
 | Alt + P        | 快速打开功能面板       |
+| Alt + B        | 搜索书签      |
 
 
 
@@ -180,6 +181,31 @@ type: note
 
 **CompressHero - 格式转换弹窗**
 ![CompressHero - 格式转换弹窗](../../public/images/horizonHop/compressHeroFormat.png)
+
+### 五. 书签搜索(BookmarkSearch)
+
+#### 主要特性
+
+*   **一键搜索书签**：在插件主界面输入"书签"或直接按下 **Alt+B**，即可唤起书签搜索面板。
+*   **模糊检索**：支持输入任意关键词，实时筛选所有浏览器书签，快速定位目标。
+*   **便捷跳转**：点击任意搜索结果，即可在新标签页打开对应网址。
+
+工具自由切换。
+
+*   **极致键盘体验**：Alt+B 快捷键让你无需鼠标，随时随地高效检索书签。
+
+#### 典型使用场景
+
+*   书签太多，找不到常用网站？一搜即达！
+*   需要临时查找某个收藏已久的资料？输入关键词，秒速定位！
+*   喜欢键盘操作的高效党？Alt+B 让你无缝切换书签，无需鼠标！
+
+**BookmarkSearch - 示例1**
+![BookmarkSearch](../../public/images/horizonHop/bookmarkSearch01.png)
+
+**BookmarkSearch - 示例2**
+![BookmarkSearch](../../public/images/horizonHop/bookmarkSearch02.png)
+
 
 ## 其他实用功能
 
